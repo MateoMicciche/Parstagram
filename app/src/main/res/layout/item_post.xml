@@ -83,7 +83,18 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="10dp"
         android:hint="First picture kind of nervous" />
+
+    <TextView
+        android:id="@+id/tvPostDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:hint="1 day ago"
+        android:textSize="10dp" />
 
 </LinearLayout>

@@ -1,9 +1,13 @@
 package com.example.parstagram;
 
+import android.widget.Toast;
+
 import com.parse.ParseClassName;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
 import com.parse.ParseUser;
+
+import java.sql.Date;
 
 @ParseClassName("Post")
 public class Post extends ParseObject{
@@ -33,7 +37,6 @@ public class Post extends ParseObject{
         return getParseUser(KEY_USER);
     }
 
-    public void setUser(ParseUser user) {
-        put(KEY_USER, user);
-    }
+    public void setUser(ParseUser user) { put(KEY_USER, user); }
+
 }
